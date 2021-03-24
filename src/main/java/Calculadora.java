@@ -10,13 +10,13 @@
  */
 public class Calculadora extends javax.swing.JFrame {
     
-    String numero1 = "";
-    String numero2 = "";
-    String operador = "";
-    double resultado = 0;
-    boolean valida = false;
-    boolean ponto = false;
-    boolean res = false;
+    protected String numero1 = "";
+    protected String numero2 = "";
+    protected String operador = "";
+    protected double resultado = 0;
+    protected boolean valida = false;
+    protected boolean ponto = false;
+    protected boolean res = false;
     /**
      * Creates new form Calculadora
      */
@@ -88,11 +88,6 @@ public class Calculadora extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jButton3.setText("3");
-        jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton3MouseClicked(evt);
-            }
-        });
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -101,11 +96,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButton0.setText("0");
         jButton0.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButton0.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton0MouseClicked(evt);
-            }
-        });
         jButton0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton0ActionPerformed(evt);
@@ -114,11 +104,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButtonPonto.setText(".");
         jButtonPonto.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButtonPonto.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButtonPontoMouseClicked(evt);
-            }
-        });
         jButtonPonto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonPontoActionPerformed(evt);
@@ -127,11 +112,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButton6.setText("6");
         jButton6.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton6MouseClicked(evt);
-            }
-        });
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
@@ -140,11 +120,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButtonSubtracao.setText("-");
         jButtonSubtracao.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButtonSubtracao.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButtonSubtracaoMouseClicked(evt);
-            }
-        });
         jButtonSubtracao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonSubtracaoActionPerformed(evt);
@@ -153,11 +128,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButton2.setText("2");
         jButton2.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton2MouseClicked(evt);
-            }
-        });
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -166,11 +136,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButton1.setText("1");
         jButton1.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton1MouseClicked(evt);
-            }
-        });
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -179,11 +144,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButtonMultiplicacao.setText("*");
         jButtonMultiplicacao.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButtonMultiplicacao.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButtonMultiplicacaoMouseClicked(evt);
-            }
-        });
         jButtonMultiplicacao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonMultiplicacaoActionPerformed(evt);
@@ -192,11 +152,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButton5.setText("5");
         jButton5.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton5MouseClicked(evt);
-            }
-        });
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -205,11 +160,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButton9.setText("9");
         jButton9.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButton9.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton9MouseClicked(evt);
-            }
-        });
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
@@ -218,11 +168,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButtonIgual.setText("=");
         jButtonIgual.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButtonIgual.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButtonIgualMouseClicked(evt);
-            }
-        });
         jButtonIgual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonIgualActionPerformed(evt);
@@ -231,11 +176,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButton7.setText("7");
         jButton7.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButton7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton7MouseClicked(evt);
-            }
-        });
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
@@ -244,11 +184,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButton8.setText("8");
         jButton8.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButton8.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton8MouseClicked(evt);
-            }
-        });
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
@@ -257,11 +192,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButton400.setText("4");
         jButton400.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButton400.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton400MouseClicked(evt);
-            }
-        });
         jButton400.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton400ActionPerformed(evt);
@@ -270,11 +200,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButtonSoma.setText("+");
         jButtonSoma.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButtonSoma.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButtonSomaMouseClicked(evt);
-            }
-        });
         jButtonSoma.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonSomaActionPerformed(evt);
@@ -283,11 +208,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButtonLimpa.setText("CE");
         jButtonLimpa.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButtonLimpa.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButtonLimpaMouseClicked(evt);
-            }
-        });
         jButtonLimpa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonLimpaActionPerformed(evt);
@@ -296,11 +216,6 @@ public class Calculadora extends javax.swing.JFrame {
 
         jButtonDivisao.setText("/");
         jButtonDivisao.setMargin(new java.awt.Insets(2, 20, 2, 20));
-        jButtonDivisao.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButtonDivisaoMouseClicked(evt);
-            }
-        });
         jButtonDivisao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonDivisaoActionPerformed(evt);
@@ -388,10 +303,11 @@ public class Calculadora extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(9, 9, 9)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jButton0, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -415,7 +331,6 @@ public class Calculadora extends javax.swing.JFrame {
             numero1 = numero1 + incremento;
         }
     }
-    
     public void calc(){
         res = true;
         if (valida && numero1.length() > 0 && numero2.length() == 0){
@@ -553,74 +468,6 @@ public class Calculadora extends javax.swing.JFrame {
     private void visorCalculadoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_visorCalculadoraActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_visorCalculadoraActionPerformed
-
-    private void jButtonMultiplicacaoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonMultiplicacaoMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonMultiplicacaoMouseClicked
-
-    private void jButtonIgualMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonIgualMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonIgualMouseClicked
-
-    private void jButtonPontoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonPontoMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonPontoMouseClicked
-
-    private void jButton0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton0MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton0MouseClicked
-
-    private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3MouseClicked
-
-    private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2MouseClicked
-
-    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1MouseClicked
-
-    private void jButtonSomaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonSomaMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonSomaMouseClicked
-
-    private void jButton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6MouseClicked
-
-    private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5MouseClicked
-
-    private void jButton400MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton400MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton400MouseClicked
-
-    private void jButtonSubtracaoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonSubtracaoMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonSubtracaoMouseClicked
-
-    private void jButton9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton9MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9MouseClicked
-
-    private void jButton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8MouseClicked
-
-    private void jButton7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7MouseClicked
-
-    private void jButtonDivisaoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonDivisaoMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonDivisaoMouseClicked
-
-    private void jButtonLimpaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonLimpaMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonLimpaMouseClicked
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         incrementa("3");
